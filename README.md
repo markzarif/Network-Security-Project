@@ -42,7 +42,7 @@ in this project work on all layer of security and used to protect all topology f
 Depend in this project by subnating use /27 because thats all we need to spluyment all network on topology
 and use the last network in this subnet and divided them into /30 because used between the routers and in loop back because save the all rang of the ip i have 
 
-
+## /27 subnet
 
 To subnet the network 192.168.10.0/24 into /27 subnets, we'll break down the address space as follows:
 
@@ -53,7 +53,9 @@ Step 2: Determine Subnet Details
 Number of subnets: Going from /24 to /27 increases the number of bits for subnetting by 3 (from 24 to 27), which gives us 
 
 ![Screenshot (12)](https://github.com/user-attachments/assets/147b16b3-c238-4375-9bed-558e7716fc56)
+---------------------------------------------------------------------------------
 
+## /30 subnet
 Step 1: Understanding the /30 Subnet Mask
 Original subnet: 192.168.10.224/27 (Subnet Mask: 255.255.255.224)
 New subnet mask: /30 (Subnet Mask: 255.255.255.252)
@@ -77,8 +79,8 @@ contain :
 
 ### Router 2 network
 contain :
- - tacacs server
- - radus server
+ - tacacs server on all the routers and networks
+ - radus server on all the routers and networks
  - syslog server
  - ntp server
  - 802.1x security
