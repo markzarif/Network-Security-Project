@@ -1,5 +1,4 @@
 # Network-Security-Project
-in this project work on all layer of security and used to protect all topology from the end user to the mitigate the most attack and user the ips and firewall
 
 ![Screenshot (10)](https://github.com/user-attachments/assets/a985e8e1-f5a0-4c29-b220-b5f083a65410)
 
